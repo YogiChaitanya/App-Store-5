@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.app-item-card {
+  list-style-type: none;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  width: 160px;
+  height: 160px;
+
+  border: none;
+  border-radius: 10px;
+
+  margin: 6px;
+}
+
+.app-img {
+  height: 90px;
+  width: 90px;
+}
+
+.app-name {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .app-item-card {
+    width: 120px;
+  }
+  .app-img {
+    height: 60px;
+    width: 60px;
+  }
+}
